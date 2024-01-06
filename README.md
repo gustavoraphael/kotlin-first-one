@@ -8,7 +8,6 @@ This system is designed to manage restaurants and cuisines, leveraging Spring Bo
 
 - RESTful endpoints for creating and searching restaurants and cuisines.
 - CSV import functionality for batch processing of restaurant and cuisine data.
-- Clean architecture with service layer separation for business logic.
 
 ## Getting Started
 
