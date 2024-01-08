@@ -69,6 +69,6 @@ class RestaurantCreateServiceTest {
         val message = service.save(file)
 
         verify(restaurantRepository, Mockito.never()).save(Mockito.any(Restaurant::class.java))
-        assertEquals("Dados do CSV processados e salvos com sucesso!", message)
+        assertEquals("CSV data processed and saved successfully!", message)
     }
 }
